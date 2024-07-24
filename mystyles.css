@@ -1,0 +1,79 @@
+/*nav{background-color:rgb(186, 231, 236);padding: 10px;}*/
+nav ul li {display: inline;margin-right: 15%;}
+nav ul li a{text-decoration: none;}
+nav ul li a:hover{text-decoration: underline;text-decoration-color: rgb(0, 255, 42);color: rgb(231, 14, 14);}
+div a{text-decoration: none;}
+div a:hover{text-decoration: underline;color: rgb(231, 29, 160);}
+.h{text-align: center;}
+footer{padding: 9px;background-color:none;margin-top: 4%;}
+.e{padding-top: 3%;}
+.c1{padding-left: 15%;}
+.s{display: grid;align-items: center;grid-template-columns: 1fr 1fr 1fr;column-gap: 7%;margin-left: 7%;}
+.s1{display: grid;align-items: center;grid-template-columns: 1fr 1fr ;column-gap: 1%;margin-right: 15%;}
+.s2{display: grid;align-items: center;grid-template-columns: 1fr 1fr 1fr 1fr;column-gap: 3%;}
+.f{font-size: large;font-family:Georgia, 'Times New Roman', Times, serif}
+h1{text-shadow: 9px 9px 9px rgb(240, 188, 84);}
+.cont{
+    .container{
+        margin:0 auto;
+        background:hsl(154, 52%, 76%);
+        box-sizing: border-box;
+    }
+    /* smart phones(potrait nd landscape)------*/
+    @media screen and (min-width: 320px){
+        .container{
+                width: 100%;
+                padding:5px 10px;
+        }
+    }
+    /* tablets, ipads (potrait and landscape)----*/
+    @media screen and (min-width: 768px) and (max-width: 1024px){
+        .container{
+                width: 100%;
+                padding:5px 10px;
+        }
+    }
+    /* low resolution Desktops and laptops....*/
+    @media screen and (min-width: 1024px){
+        .container{
+                width: 100%;
+                padding:5px 10px;
+        }
+    }
+    /* high resolution Desktops and laptops....*/
+    @media screen and (min-width: 1280px){
+        .container{
+                width: 100%;
+                padding:5px 10px;
+        }
+    }
+}
+.b{
+    height: 150px;
+    width: 270px;
+    background:rgb(200, 241, 241);
+    box-shadow: 25px 37px 39px rgb(135, 191, 240),59px 51px 62px rgb(160, 243, 160);
+}
+.b{ padding-top: 4%;
+    margin-left: 40%;
+}
+.lg{
+    height: 400px;
+    width: 500px;
+    background: url("jainbudh.jpg");
+    background: 
+    linear-gradient(to right, rgba(204, 224, 149, 0.3), rgb(102, 78, 78)),url("jainbudh.jpg");
+}
+.r{
+    width: 1400px;
+    height: 900px;
+    background:
+    radial-gradient(circle,
+    rgb(95, 199, 227),rgb(164, 226, 164),rgb(238, 193, 110));
+    text-align: center;
+}
+.half{width: 1400px;height: 900px;
+    background:
+    linear-gradient(rgb(196, 233, 127),rgb(149, 149, 226));
+}
+h1{color: rgb(243, 34, 34);}
